@@ -1,0 +1,131 @@
+
+body{
+    background-color: aliceblue;
+}
+
+.container{
+    position: relative;
+}
+.snt{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.title_question{
+    font-size: 30px;
+    color: aqua;
+}
+
+input{
+    margin:0 10px;
+    border-radius: 10%;
+}
+
+.question3{
+    box-sizing: border-box;
+    position: absolute;
+    width: 1213px;
+    height: 854px;
+    left: 193px;
+    top: 373px;
+    border: 2px solid rgb(28, 15, 212);
+    background-color: white;
+    padding: 100px;
+}
+
+.user{
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 35px;
+}
+
+nav input{
+    width: 200px;
+    height: 30px;
+    border-radius: 2px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav ul li{
+    color: #000;
+    padding: 0 20px;
+    font-size: 18px;
+    font-weight: 500;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.3s ease;
+    border: none;
+    border-radius: 10px;
+    line-height: 40px;
+
+}
+nav ul li a{
+    height: 100%;
+    text-decoration: none;
+}
+nav ul li:hover{
+    background-color: aqua;
+}
+
+.menuUser{
+    margin-top: 100px;
+}
+
+.details_project {
+    margin: 60px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .user {
+    display: flex;
+    transition: 0.3s ease;
+    width: 310px;
+    height: 208px;
+    padding: 6px;
+  }
+  .user:hover {
+    border: 1px solid yellowgreen;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  .user img {
+    border-radius: 50%;
+    background-position: to 20px right;
+    object-fit: cover;
+    background-size: center;
+    border: 1px solid yellow;
+  }
+  .user .content_project {
+    padding: 20px;
+  }
+  .user h3 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .user .para {
+    color: #000;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .user .btn {
+    position: inline-block;
+    color: #6495ED ;
+    border: 3px solid #6495ED;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 5px 10px;
+  }

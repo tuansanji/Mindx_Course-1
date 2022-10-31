@@ -1,0 +1,55 @@
+html{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("https://thaotruong#com/wp-content/uploads/2020/12/background-dep-1.jpg");
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.container{
+height: 100%;
+width: 100%;
+}
+
+.profile{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: 80%;
+}
+
+.menu{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.game{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#game1{
+    background-color: brown;
+    width: 400px;
+    height: 100px;
+}
+
+#game2{
+    background-color: brown;
+    width: 400px;
+    height: 100px;
+
+}
+
+#game3{
+    background-color: brown;
+    width: 400px;
+    height: 100px;
+}
+
+#game4{
+    background-color: brown;
+    width: 400px;
+    height: 100px;
+}

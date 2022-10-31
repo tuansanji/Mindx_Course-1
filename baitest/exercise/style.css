@@ -1,0 +1,34 @@
+.red {position: absolute;
+  background-color: red;
+}
+.yellow {position: absolute;
+  background-color: yellow;
+}
+.square.yellow{
+background-color: aqua;
+
+}
+
+
+
+.green {position: absolute;
+  background-color: green;
+}
+.blue {position: absolute;
+  background-color: blue;
+}
+.container {
+  position: relative;
+  left: 0;
+  top: 0;
+  width: 600px;
+  height: 600px;
+}
+.square {
+  width: 200px;
+  height: 200px;
+}
+.rectangle {
+  width: 300px;
+  height: 100px;
+}
